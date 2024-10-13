@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Final Project of JavaScript</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="images/ACOdyssey_Alexios_profile.jpg" type="image/jpeg" />
+</head>
+
+<body>
+
+  <div id="image-container">
+    <button id="prev" onclick="prevImage()">&#10094;</button>
+    <div id="image">
+      <span class="image-text">Every pic has a secret. Hover over the image to reveal the secret.</span>
+    </div>
+    <button id="next" onclick="nextImage()">&#10095;</button>
+  </div>
+  <br>
+  <img class="previews" src="images/ACOdyssey_Combat.gif"
+    alt="This is a traditional dance, where typically the next step is for one party to fall into the arms of the other."
+    onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+  <img class="previews" src="images/ACOdyssey_Handshake.gif"
+    alt="The ancient art of bargaining involves both parties communicating prices through hand signals without using words. Of course, this secret language also includes the art of using some profanities."
+    onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+  <img class="previews" src="images/ACOdyssey_Helmet.gif"
+    alt="I didn't expect the hat size to be so much smaller than my head circumference. How am I supposed to wear it?"
+    onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+  <img class="previews" src="images/ACOdyssey_Kick.gif"
+    alt="Even the most patient person can't tolerate a dance partner who constantly steps on their feet, so he gave his partner a lesson with his swollen, stepped-on foot."
+    onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+  <img class="previews" src="images/ACOdyssey_Landing.gif"
+    alt="When this move appears in the dance, it is customary to shout 'Bazahae.'" onmouseover="upDate(this)"
+    onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+  <img class="previews" src="images/ACOdyssey_SpearJump.gif"
+    alt="At the end of the dance, everyone usually tosses the dance king into the air, but if they throw him too hard, it becomes difficult to catch him..."
+    onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+  <script src="js/script.js"></script>
+  <h1>
+    <a href="lightbox.html">LightBox Version</a>
+  </h1>
+</body>
+
+</html>
